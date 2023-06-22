@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+	animation: App-logo-spin infinite 20s linear;
   }
 }
 
@@ -30,9 +30,31 @@
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+	transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+	transform: rotate(360deg);
   }
+}
+
+/* Path: Landing.js file */
+
+.img-logo{
+	width: 15vw;
+	height: 30vh;
+	margin: 15px;
+}
+.input-landing{
+	width: 30vw;
+	height: 5vh;
+	margin: 15px;
+}
+.landing-container{
+	background-color:black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
 }
